@@ -1,0 +1,8 @@
+/var/*.sqlite*
+.env
+*.log
+
+*.sqlite*
+.env.*
+!.env.example
+__pycache__/
