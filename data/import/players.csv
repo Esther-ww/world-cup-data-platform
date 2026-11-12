@@ -1,0 +1,185 @@
+id,name,name_en,birth_date,nationality,position
+1,Jefferson,Jefferson,1983-01-02,巴西,GK
+2,Júlio César,Júlio César,1979-09-03,巴西,GK
+3,Victor,Victor,1983-01-21,巴西,GK
+4,Dani Alves,Dani Alves,1983-05-06,巴西,DF
+5,Thiago Silva,Thiago Silva,1984-09-22,巴西,DF
+6,David Luiz,David Luiz,1987-04-22,巴西,DF
+7,Marcelo,Marcelo,,巴西,DF
+8,Dante,Dante,1983-10-18,巴西,DF
+9,Maxwell,Maxwell,1981-08-27,巴西,DF
+10,Henrique,Henrique,1986-10-14,巴西,DF
+11,Maicon,Maicon,1981-07-26,巴西,DF
+12,Fernandinho,Fernandinho,1985-05-04,巴西,MF
+13,Paulinho,Paulinho,,巴西,MF
+14,Oscar,Oscar,1991-09-09,巴西,MF
+15,Ramires,Ramires,1987-03-24,巴西,MF
+16,Luiz Gustavo,Luiz Gustavo,1987-07-23,巴西,MF
+17,Hernanes,Hernanes,1985-05-29,巴西,MF
+18,Willian,Willian,1988-08-09,巴西,MF
+19,Hulk,Hulk,1986-07-25,巴西,FW
+20,Fred,Fred,1983-10-03,巴西,FW
+21,Neymar,Neymar,1992-02-05,巴西,FW
+22,Bernard,Bernard,1992-09-08,巴西,FW
+23,Jô,Jô,1987-03-20,巴西,FW
+24,Stipe Pletikosa,Stipe Pletikosa,1979-01-08,克罗地亚,GK
+25,Oliver Zelenika,Oliver Zelenika,1993-05-14,克罗地亚,GK
+26,Danijel Subašić,Danijel Subašić,1984-10-27,克罗地亚,GK
+27,Šime Vrsaljko,Šime Vrsaljko,1992-01-10,克罗地亚,DF
+28,Danijel Pranjić,Danijel Pranjić,1981-12-02,克罗地亚,DF
+29,Vedran Ćorluka,Vedran Ćorluka,1986-02-05,克罗地亚,DF
+30,Dejan Lovren,Dejan Lovren,1989-07-05,克罗地亚,DF
+31,Darijo Srna,Darijo Srna,1982-05-01,克罗地亚,DF
+32,Gordon Schildenfeld,Gordon Schildenfeld,1985-03-18,克罗地亚,DF
+33,Domagoj Vida,Domagoj Vida,1989-04-29,克罗地亚,DF
+34,Ivan Perišić,Ivan Perišić,1989-02-02,克罗地亚,MF
+35,Ivan Rakitić,Ivan Rakitić,1988-03-10,克罗地亚,MF
+36,Ognjen Vukojević,Ognjen Vukojević,1983-12-20,克罗地亚,MF
+37,Luka Modrić,Luka Modrić,1985-09-09,克罗地亚,MF
+38,Marcelo Brozović,Marcelo Brozović,1992-11-16,克罗地亚,MF
+39,Ivan Močinić,Ivan Močinić,1993-04-30,克罗地亚,MF
+40,Sammir,Sammir,1987-04-23,克罗地亚,MF
+41,Mateo Kovačić,Mateo Kovačić,1994-05-06,克罗地亚,MF
+42,Nikica Jelavić,Nikica Jelavić,1985-08-27,克罗地亚,FW
+43,Ante Rebić,Ante Rebić,1993-09-21,克罗地亚,FW
+44,Mario Mandžukić,Mario Mandžukić,1986-05-21,克罗地亚,FW
+45,Ivica Olić,Ivica Olić,1979-09-14,克罗地亚,FW
+46,Eduardo,Eduardo,1983-02-25,克罗地亚,FW
+47,José de Jesús Corona,José de Jesús Corona,,墨西哥,GK
+48,Alfredo Talavera,Alfredo Talavera,1982-09-18,墨西哥,GK
+49,Guillermo Ochoa,Guillermo Ochoa,1985-07-13,墨西哥,GK
+50,Francisco Javier Rodríguez,Francisco Javier Rodríguez,,墨西哥,DF
+51,Carlos Salcido,Carlos Salcido,1980-04-02,墨西哥,DF
+52,Rafael Márquez,Rafael Márquez,1979-02-13,墨西哥,DF
+53,Diego Reyes,Diego Reyes,1992-09-19,墨西哥,DF
+54,Miguel Layún,Miguel Layún,1988-06-25,墨西哥,DF
+55,Héctor Moreno,Héctor Moreno,1988-01-17,墨西哥,DF
+56,Miguel Ángel Ponce,Miguel Ángel Ponce,1989-04-12,墨西哥,DF
+57,Andrés Guardado,Andrés Guardado,1986-09-28,墨西哥,DF
+58,Paul Aguilar,Paul Aguilar,1986-03-06,墨西哥,DF
+59,Héctor Herrera,Héctor Herrera,1990-04-19,墨西哥,MF
+60,Marco Fabián,Marco Fabián,1989-07-21,墨西哥,MF
+61,Isaác Brizuela,Isaác Brizuela,1990-08-28,墨西哥,MF
+62,Javier Aquino,Javier Aquino,1990-02-11,墨西哥,MF
+63,Carlos Peña,Carlos Peña,,墨西哥,MF
+64,José Juan Vázquez,José Juan Vázquez,,墨西哥,MF
+65,Raúl Jiménez,Raúl Jiménez,1991-05-05,墨西哥,FW
+66,Giovani dos Santos,Giovani dos Santos,1989-05-11,墨西哥,FW
+67,Alan Pulido,Alan Pulido,1991-03-08,墨西哥,FW
+68,Javier Hernández,Javier Hernández,1988-06-01,墨西哥,FW
+69,Oribe Peralta,Oribe Peralta,1984-01-12,墨西哥,FW
+70,Loïc Feudjou,Loïc Feudjou,1992-04-14,喀麦隆,GK
+71,Charles Itandje,Charles Itandje,1982-11-02,喀麦隆,GK
+72,Sammy N'Djock,Sammy N'Djock,1990-02-25,喀麦隆,GK
+73,Benoît Assou-Ekotto,Benoît Assou-Ekotto,1984-03-24,喀麦隆,DF
+74,Nicolas N'Koulou,Nicolas N'Koulou,1990-03-27,喀麦隆,DF
+75,Cédric Djeugoué,Cédric Djeugoué,1992-08-28,喀麦隆,DF
+76,Dany Nounkeu,Dany Nounkeu,1986-04-11,喀麦隆,DF
+77,Henri Bedimo,Henri Bedimo,,喀麦隆,DF
+78,Aurélien Chedjou,Aurélien Chedjou,1985-06-20,喀麦隆,DF
+79,Allan Nyom,Allan Nyom,,喀麦隆,DF
+80,Alex Song,Alex Song,,喀麦隆,MF
+81,Landry N'Guémo,Landry N'Guémo,1985-11-28,喀麦隆,MF
+82,Jean Makoun,Jean Makoun,,喀麦隆,MF
+83,Stéphane Mbia,Stéphane Mbia,1986-05-20,喀麦隆,MF
+84,Eyong Enoh,Eyong Enoh,1986-03-23,喀麦隆,MF
+85,Edgar Salli,Edgar Salli,1992-08-17,喀麦隆,MF
+86,Joël Matip,Joël Matip,1991-08-08,喀麦隆,MF
+87,Benjamin Moukandjo,Benjamin Moukandjo,1988-11-12,喀麦隆,FW
+88,Samuel Eto'o,Samuel Eto'o,1981-03-10,喀麦隆,FW
+89,Vincent Aboubakar,Vincent Aboubakar,1992-01-22,喀麦隆,FW
+90,Maxim Choupo-Moting,Maxim Choupo-Moting,1989-03-23,喀麦隆,FW
+91,Pierre Webó,Pierre Webó,1982-01-20,喀麦隆,FW
+92,Fabrice Olinga,Fabrice Olinga,1996-05-12,喀麦隆,FW
+93,Iker Casillas,Iker Casillas,1981-05-20,西班牙,GK
+94,David de Gea,David de Gea,1990-11-07,西班牙,GK
+95,Pepe Reina,Pepe Reina,1982-08-31,西班牙,GK
+96,Raúl Albiol,Raúl Albiol,1985-09-04,西班牙,DF
+97,Gerard Piqué,Gerard Piqué,1987-02-02,西班牙,DF
+98,Juanfran,Juanfran,1985-01-09,西班牙,DF
+99,Sergio Ramos,Sergio Ramos,1986-03-30,西班牙,DF
+100,Jordi Alba,Jordi Alba,1989-03-21,西班牙,DF
+101,César Azpilicueta,César Azpilicueta,1989-08-28,西班牙,DF
+102,Javi Martínez,Javi Martínez,1988-09-02,西班牙,MF
+103,Andrés Iniesta,Andrés Iniesta,1984-05-11,西班牙,MF
+104,Xavi,Xavi,1980-01-25,西班牙,MF
+105,Cesc Fàbregas,Cesc Fàbregas,1987-05-04,西班牙,MF
+106,Juan Mata,Juan Mata,1988-04-28,西班牙,MF
+107,Xabi Alonso,Xabi Alonso,1981-11-25,西班牙,MF
+108,Sergio Busquets,Sergio Busquets,1988-07-16,西班牙,MF
+109,Koke,Koke,1992-01-08,西班牙,MF
+110,Santi Cazorla,Santi Cazorla,1984-12-13,西班牙,MF
+111,David Silva,David Silva,1986-01-08,西班牙,MF
+112,David Villa,David Villa,1981-12-03,西班牙,FW
+113,Fernando Torres,Fernando Torres,1984-03-20,西班牙,FW
+114,Pedro,Pedro,1987-07-28,西班牙,FW
+115,Diego Costa,Diego Costa,1988-10-07,西班牙,FW
+116,Jasper Cillessen,Jasper Cillessen,1989-04-22,荷兰,GK
+117,Michel Vorm,Michel Vorm,1983-10-20,荷兰,GK
+118,Tim Krul,Tim Krul,1988-04-03,荷兰,GK
+119,Ron Vlaar,Ron Vlaar,1985-02-16,荷兰,DF
+120,Stefan de Vrij,Stefan de Vrij,1992-02-05,荷兰,DF
+121,Bruno Martins Indi,Bruno Martins Indi,1992-02-08,荷兰,DF
+122,Daley Blind,Daley Blind,1990-03-09,荷兰,DF
+123,Daryl Janmaat,Daryl Janmaat,1989-07-22,荷兰,DF
+124,Paul Verhaegh,Paul Verhaegh,1983-09-01,荷兰,DF
+125,Joël Veltman,Joël Veltman,1992-01-15,荷兰,DF
+126,Terence Kongolo,Terence Kongolo,1994-02-14,荷兰,DF
+127,Jonathan de Guzmán,Jonathan de Guzmán,1987-09-13,荷兰,MF
+128,Nigel de Jong,Nigel de Jong,1984-11-30,荷兰,MF
+129,Wesley Sneijder,Wesley Sneijder,1984-06-09,荷兰,MF
+130,Arjen Robben,Arjen Robben,1984-01-23,荷兰,MF
+131,Jordy Clasie,Jordy Clasie,1991-06-27,荷兰,MF
+132,Leroy Fer,Leroy Fer,1990-01-05,荷兰,MF
+133,Georginio Wijnaldum,Georginio Wijnaldum,1990-11-11,荷兰,MF
+134,Memphis Depay,Memphis Depay,1994-02-13,荷兰,MF
+135,Robin van Persie,Robin van Persie,1983-08-06,荷兰,FW
+136,Dirk Kuyt,Dirk Kuyt,1980-07-22,荷兰,FW
+137,Jeremain Lens,Jeremain Lens,1987-11-24,荷兰,FW
+138,Klaas-Jan Huntelaar,Klaas-Jan Huntelaar,1983-08-12,荷兰,FW
+139,Claudio Bravo,Claudio Bravo,1983-04-13,智利,GK
+140,Cristopher Toselli,Cristopher Toselli,1988-06-15,智利,GK
+141,Johnny Herrera,Johnny Herrera,1981-05-09,智利,GK
+142,Eugenio Mena,Eugenio Mena,1988-07-18,智利,DF
+143,Miiko Albornoz,Miiko Albornoz,1990-11-30,智利,DF
+144,José Rojas,José Rojas,1983-06-23,智利,DF
+145,Gary Medel,Gary Medel,1987-08-03,智利,DF
+146,Gonzalo Jara,Gonzalo Jara,1985-08-29,智利,DF
+147,Mauricio Isla,Mauricio Isla,1988-06-12,智利,MF
+148,Francisco Silva,Francisco Silva,1986-02-11,智利,MF
+149,Carlos Carmona,Carlos Carmona,1987-02-21,智利,MF
+150,Arturo Vidal,Arturo Vidal,1987-05-22,智利,MF
+151,Jorge Valdívia,Jorge Valdívia,1983-10-19,智利,MF
+152,Fabián Orellana,Fabián Orellana,1986-01-27,智利,MF
+153,Jean Beausejour,Jean Beausejour,1984-06-01,智利,MF
+154,Felipe Gutiérrez,Felipe Gutiérrez,1990-10-08,智利,MF
+155,José Pedro Fuenzalida,José Pedro Fuenzalida,1985-02-22,智利,MF
+156,Charles Aránguiz,Charles Aránguiz,1989-04-17,智利,MF
+157,Marcelo Díaz,Marcelo Díaz,1986-12-30,智利,MF
+158,Alexis Sánchez,Alexis Sánchez,1988-12-19,智利,FW
+159,Mauricio Pinilla,Mauricio Pinilla,1984-02-04,智利,FW
+160,Eduardo Vargas,Eduardo Vargas,1989-11-20,智利,FW
+161,Esteban Paredes,Esteban Paredes,1980-08-01,智利,FW
+162,Mathew Ryan,Mathew Ryan,,澳大利亚,GK
+163,Mitchell Langerak,Mitchell Langerak,1988-08-22,澳大利亚,GK
+164,Eugene Galeković,Eugene Galeković,1981-06-12,澳大利亚,GK
+165,Ivan Franjić,Ivan Franjić,1987-09-10,澳大利亚,DF
+166,Jason Davidson,Jason Davidson,1991-06-29,澳大利亚,DF
+167,Matthew Špiranović,Matthew Špiranović,1988-06-27,澳大利亚,DF
+168,Bailey Wright,Bailey Wright,1992-07-28,澳大利亚,DF
+169,Ryan McGowan,Ryan McGowan,1989-08-15,澳大利亚,DF
+170,Alex Wilkinson,Alex Wilkinson,1984-08-13,澳大利亚,DF
+171,Mark Milligan,Mark Milligan,1985-08-04,澳大利亚,MF
+172,Ben Halloran,Ben Halloran,1992-06-14,澳大利亚,MF
+173,Tommy Oar,Tommy Oar,1991-12-10,澳大利亚,MF
+174,Oliver Bozanić,Oliver Bozanić,1989-01-08,澳大利亚,MF
+175,James Troisi,James Troisi,1988-07-03,澳大利亚,MF
+176,Mile Jedinak,Mile Jedinak,1984-08-03,澳大利亚,MF
+177,James Holland,James Holland,1989-05-15,澳大利亚,MF
+178,Matt McKay,Matt McKay,1983-01-11,澳大利亚,MF
+179,Dario Vidošić,Dario Vidošić,1987-04-08,澳大利亚,MF
+180,Massimo Luongo,Massimo Luongo,1992-09-25,澳大利亚,MF
+181,Mark Bresciano,Mark Bresciano,1980-02-11,澳大利亚,MF
+182,Tim Cahill,Tim Cahill,1979-12-06,澳大利亚,FW
+183,Mathew Leckie,Mathew Leckie,,澳大利亚,FW
+184,Adam Taggart,Adam Taggart,1993-06-02,澳大利亚,FW

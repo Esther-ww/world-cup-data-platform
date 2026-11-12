@@ -1,0 +1,224 @@
+/* 成员 C | 公共样式：球队、球员、名单与阵容页面。 */
+:root {
+  --ink: #173b31;
+  --muted: #5d7268;
+  --paper: #f3f6f1;
+  --card: #ffffff;
+  --line: #c9d8cb;
+  --brand: #153c32;
+  --accent: #19614d;
+  --accent-2: #2e7d5b;
+  --danger: #9b2c2c;
+  --gold: #b07d18;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 16px/1.65 system-ui, -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif;
+}
+
+header {
+  padding: 14px 5vw;
+  background: var(--brand);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem 2rem;
+  flex-wrap: wrap;
+}
+
+header a { color: #fff; text-decoration: none; }
+header a:hover { text-decoration: underline; }
+.brand { display: flex; flex-direction: column; line-height: 1.2; }
+.brand strong { font-size: 1.05rem; letter-spacing: .02em; }
+.brand span { font-size: .78rem; opacity: .72; }
+header nav { display: flex; gap: 1.25rem; flex-wrap: wrap; }
+header nav a { padding: .25rem 0; border-bottom: 2px solid transparent; }
+header nav a.active { border-bottom-color: #9ed0b5; }
+.account { margin-left: auto; display: flex; align-items: center; gap: .7rem; font-size: .9rem; }
+.account .inline { display: inline; }
+
+main { max-width: 1100px; margin: auto; padding: 38px 20px 60px; }
+
+h1 { font-size: clamp(1.9em, 4.5vw, 2.8em); line-height: 1.15; margin: .2em 0 .35em; }
+h2 { margin-top: 1.8em; font-size: 1.35em; }
+h3 { margin-top: 1.2em; }
+a { color: #165643; }
+.eyebrow { letter-spacing: .14em; color: #516a50; font-size: .78rem; margin: 0; text-transform: uppercase; }
+.lead { color: var(--muted); max-width: 75ch; }
+.muted { color: var(--muted); }
+.num { font-variant-numeric: tabular-nums; text-align: right; }
+code { background: #e7eee5; padding: .1em .35em; border-radius: 4px; }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1em; }
+article { border: 1px solid var(--line); border-radius: 12px; background: var(--card); padding: 20px; margin: .7em 0; }
+.team-card h2 { margin: .2em 0 .1em; font-size: 1.3em; }
+.team-card .code { display: inline-block; margin: 0; padding: .1em .5em; border-radius: 4px; background: var(--brand); color: #fff; font-size: .78rem; letter-spacing: .1em; }
+
+.filters {
+  display: flex;
+  gap: .9rem 1.2rem;
+  align-items: end;
+  flex-wrap: wrap;
+  padding: 16px 18px;
+  margin: 1.2em 0 1.6em;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+.compact-filters { padding: 10px 14px; margin: 1em 0; }
+
+label { display: block; margin: .4em 0; }
+input:not([type=hidden]), textarea, select {
+  display: block;
+  width: min(100%, 520px);
+  padding: 8px 10px;
+  border: 1px solid #879c91;
+  border-radius: 6px;
+  font: inherit;
+  background: #fff;
+  color: var(--ink);
+}
+select { width: auto; min-width: 150px; }
+button, .button {
+  background: var(--accent);
+  color: #fff;
+  padding: 8px 15px;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  font: inherit;
+}
+button:hover { background: var(--accent-2); }
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible {
+  outline: 3px solid #8fc9a7;
+  outline-offset: 2px;
+}
+.link-button { background: none; color: var(--accent); padding: 0; font: inherit; text-decoration: underline; }
+.link-button:hover { background: none; color: var(--accent-2); }
+.link-button.danger { color: var(--danger); }
+.danger-button { background: var(--danger); }
+.inline { display: inline; }
+
+.flash { padding: 10px 14px; background: #dfebd8; border-left: 4px solid var(--accent); border-radius: 6px; }
+.alert { padding: 12px 16px; background: #fbe9e7; border-left: 4px solid var(--danger); border-radius: 6px; }
+.alert ul { margin: .5em 0 0; padding-left: 1.2em; }
+.empty { padding: 18px; border: 1px dashed var(--line); border-radius: 10px; color: var(--muted); background: #fafcf9; }
+.empty.small { padding: 10px 14px; }
+
+.table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; background: var(--card); }
+table { width: 100%; border-collapse: collapse; font-size: .95rem; }
+th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid #e3ebe2; vertical-align: middle; }
+th { background: #eef4ec; font-size: .82rem; letter-spacing: .04em; color: #405a4e; }
+tr:last-child td { border-bottom: 0; }
+tbody tr:hover { background: #f7faf6; }
+table.compact th, table.compact td { padding: 7px 9px; }
+.actions { display: flex; gap: .8rem; align-items: center; flex-wrap: wrap; }
+
+.badge { display: inline-block; padding: .1em .5em; border-radius: 999px; font-size: .78rem; font-weight: 600; }
+.pos-gk { background: #f6e3b4; color: #6b4a00; }
+.pos-df { background: #dce8f7; color: #1e4573; }
+.pos-mf { background: #dff0df; color: #1d5b33; }
+.pos-fw { background: #f8dada; color: #7c2323; }
+.pos-other { background: #e8e8e8; color: #444; }
+
+.facts { display: grid; grid-template-columns: max-content 1fr; gap: .35em 1.2em; margin: 0; }
+.facts dt { color: var(--muted); }
+.facts dd { margin: 0; }
+.detail-grid { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+
+.squad-groups { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1em; }
+
+.pagination { display: flex; gap: 1rem; align-items: center; margin: 1.2em 0; }
+.pagination span { color: var(--muted); }
+
+.lineup-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 1.2em; margin-top: 1.2em; }
+.lineup-side { border: 1px solid var(--line); border-radius: 14px; background: var(--card); padding: 18px; }
+.lineup-side h2 { margin-top: 0; }
+.formation { margin: .2em 0 1em; }
+
+.pitch {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto 1.2em;
+  border-radius: 12px;
+  background:
+    repeating-linear-gradient(0deg, rgba(255,255,255,.05) 0 8%, rgba(0,0,0,.025) 8% 16%),
+    linear-gradient(180deg, #2c7a4b, #1f5e39);
+  border: 3px solid #e9f3ea;
+  overflow: hidden;
+}
+.pitch::before {
+  content: "";
+  position: absolute;
+  left: 10%; right: 10%; top: 44%; height: 12%;
+  border: 2px solid rgba(255,255,255,.55);
+  border-radius: 50%;
+}
+.pitch::after {
+  content: "";
+  position: absolute;
+  left: 25%; right: 25%; top: 0; height: 14%;
+  border: 2px solid rgba(255,255,255,.55);
+  border-top: 0;
+}
+.pitch-player {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  width: 64px;
+  text-decoration: none;
+  color: #fff;
+  font-size: .68rem;
+  line-height: 1.15;
+  text-align: center;
+}
+.pitch-player .shirt {
+  display: grid;
+  place-items: center;
+  width: 28px; height: 28px;
+  border-radius: 50%;
+  background: #fff;
+  color: var(--brand);
+  font-weight: 700;
+  font-size: .8rem;
+  border: 2px solid rgba(0,0,0,.15);
+}
+.pitch-player .pname { background: rgba(0,0,0,.42); padding: 1px 4px; border-radius: 4px; }
+.pitch-player.pos-gk .shirt { background: #f6e3b4; }
+.pitch-player.pos-df .shirt { background: #dce8f7; }
+.pitch-player.pos-mf .shirt { background: #dff0df; }
+.pitch-player.pos-fw .shirt { background: #f8dada; }
+
+.bench-list { list-style: none; padding: 0; margin: .4em 0; display: grid; gap: .4em; }
+.bench-list li { display: flex; gap: .7rem; align-items: center; padding: .35em 0; border-bottom: 1px dashed #e3ebe2; }
+.bench-list li:last-child { border-bottom: 0; }
+
+.tabs { display: flex; gap: .4rem; flex-wrap: wrap; margin: 1.2em 0 1.4em; border-bottom: 1px solid var(--line); }
+.tabs a { padding: .5em .9em; text-decoration: none; border-radius: 8px 8px 0 0; color: var(--muted); }
+.tabs a:hover { background: #e9f0e6; }
+.tabs a.active { background: var(--card); border: 1px solid var(--line); border-bottom-color: var(--card); color: var(--ink); font-weight: 600; margin-bottom: -1px; }
+
+.admin-form, .lineup-form { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 18px; margin: 1em 0; }
+.admin-form input, .admin-form select { width: min(100%, 420px); }
+.lineup-form table select { width: auto; min-width: 110px; }
+.auth-form { max-width: 420px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 20px; }
+
+footer { background: #e8efe5; border-top: 1px solid var(--line); padding: 22px 5vw 30px; color: var(--muted); font-size: .84rem; }
+footer p { max-width: 90ch; margin: .35em 0; }
+
+@media (max-width: 640px) {
+  header { gap: .8rem 1.2rem; }
+  .account { margin-left: 0; }
+  main { padding: 26px 14px 46px; }
+  .pitch-player { width: 54px; font-size: .62rem; }
+}
